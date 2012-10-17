@@ -312,6 +312,7 @@ struct iommu_domain *msm_get_iommu_domain(int domain_num)
 	else
 		return NULL;
 }
+EXPORT_SYMBOL(msm_get_iommu_domain);
 
 static struct msm_iova_data *msm_domain_to_iova_data(struct iommu_domain
 						     const *domain)

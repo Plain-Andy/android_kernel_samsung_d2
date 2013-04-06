@@ -691,18 +691,32 @@ CONFIG_CPU_FREQ=y
 CONFIG_CPU_FREQ_TABLE=y
 CONFIG_CPU_FREQ_STAT=y
 # CONFIG_CPU_FREQ_STAT_DETAILS is not set
+<<<<<<< HEAD:arch/arm/configs/cyanogen_expressatt_defconfig
 # CONFIG_CPU_FREQ_DEFAULT_GOV_PERFORMANCE is not set
+=======
+>>>>>>> 82dda3c... Add DanceDance governor (Thanks to Shaun Nuzzo):arch/arm/configs/air_defconfig
 # CONFIG_CPU_FREQ_DEFAULT_GOV_POWERSAVE is not set
 # CONFIG_CPU_FREQ_DEFAULT_GOV_USERSPACE is not set
 # CONFIG_CPU_FREQ_DEFAULT_GOV_ONDEMAND is not set
 # CONFIG_CPU_FREQ_DEFAULT_GOV_CONSERVATIVE is not set
+<<<<<<< HEAD:arch/arm/configs/cyanogen_expressatt_defconfig
 CONFIG_CPU_FREQ_DEFAULT_GOV_INTERACTIVE=y
+=======
+# CONFIG_CPU_FREQ_DEFAULT_GOV_INTERACTIVE is not set
+CONFIG_CPU_FREQ_DEFAULT_GOV_WHEATLEY=y
+>>>>>>> 82dda3c... Add DanceDance governor (Thanks to Shaun Nuzzo):arch/arm/configs/air_defconfig
 CONFIG_CPU_FREQ_GOV_PERFORMANCE=y
 CONFIG_CPU_FREQ_GOV_POWERSAVE=y
 # CONFIG_CPU_FREQ_GOV_USERSPACE is not set
 CONFIG_CPU_FREQ_GOV_ONDEMAND=y
 CONFIG_CPU_FREQ_GOV_INTERACTIVE=y
 CONFIG_CPU_FREQ_GOV_CONSERVATIVE=y
+<<<<<<< HEAD:arch/arm/configs/cyanogen_expressatt_defconfig
+=======
+CONFIG_CPU_FREQ_GOV_INTELLIDEMAND=y
+CONFIG_CPU_FREQ_GOV_WHEATLEY=y
+CONFIG_CPU_FREQ_GOV_DANCEDANCE=y
+>>>>>>> 82dda3c... Add DanceDance governor (Thanks to Shaun Nuzzo):arch/arm/configs/air_defconfig
 
 #
 # ARM CPU frequency scaling drivers

@@ -940,6 +940,10 @@ endmenu
 
 source "arch/arm/mach-msm/lge/Kconfig"
 
+config CPU_VOLTAGE
+	bool "Userspace CPU voltage control"
+	default y
+
 config MSM_STACKED_MEMORY
 	bool "Stacked Memory"
 	default y

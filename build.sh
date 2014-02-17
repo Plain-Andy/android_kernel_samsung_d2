@@ -122,7 +122,7 @@ sed -i '/<p>commit/ d' temp
 sed -i '/<p>Author/ d' temp
 sed -i -e 's/Date:/<font color="#CF0A45">Date:/' temp
 perl -ne 'chomp; printf "%s</p></font>\n", $_' < temp >> temp2
-head -n 125 temp2 > ChangeLog.html
+head -n 250 temp2 > ChangeLog.html
 echo "</div></body></html>" >> ChangeLog.html
 rm temp2
 rm temp
